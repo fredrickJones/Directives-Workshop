@@ -1,4 +1,5 @@
-var app = angular.module('directiveWorkshop', []);
+'use strict';
+var app = angular.module('directiveWorkshop', ['myDirectives']);
 
 app.controller('mainCtrl', function($scope, mainService){
 $scope.getData = function () {
